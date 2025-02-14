@@ -1,0 +1,14 @@
+[project]
+name = "intan2"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "intvalpy @ git+https://github.com/AndrosovAS/intvalpy",
+    "matplotlib>=3.10.0",
+    "wxPython>=4.2.2",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv.sources]
+intvalpy = { git = "https://github.com/AndrosovAS/intvalpy" }
+
