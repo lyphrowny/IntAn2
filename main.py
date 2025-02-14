@@ -5,8 +5,6 @@ from pathlib import Path
 import numpy as np
 from intvalpy import Interval, Tol, precision
 from intvalpy_fix import IntLinIncR2
-import matplotlib.pyplot as plt
-from collections import namedtuple
 from numpy.typing import NDArray
 from tqdm import tqdm
 from itertools import product
